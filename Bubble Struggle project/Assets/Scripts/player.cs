@@ -27,8 +27,15 @@ public class player : MonoBehaviour
         rb.MovePosition(rb.position + new Vector2(movement * Time.fixedDeltaTime, 0f));
     }
 
-   
+    //to kill the player to end with loss
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.collider.tag == "ball")
+        {
+            Debug.Log("GAME OVER");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
+        }
 
-
+    }
 }
