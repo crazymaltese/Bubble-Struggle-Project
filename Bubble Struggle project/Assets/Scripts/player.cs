@@ -32,7 +32,7 @@ public class player : MonoBehaviour
     {
         if (col.collider.tag == "ball")
         {
-            Debug.Log("GAME OVER");
+           
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         }
