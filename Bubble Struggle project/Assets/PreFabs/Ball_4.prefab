@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3285426e8364c940abd32000c122347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startForce: {x: 0, y: 0}
+  startForce: {x: 2, y: 0}
   rb: {fileID: 50213427120257218}
   nextBall: {fileID: 1236423750566048, guid: 6f71256bc0c58234497112afa7ac02ef, type: 2}
 --- !u!212 &212643660326057096
