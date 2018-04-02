@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3285426e8364c940abd32000c122347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startForce: {x: 2, y: 0}
+  startForce: {x: 0, y: 0}
   rb: {fileID: 50586630246893310}
   nextBall: {fileID: 1941058279798318, guid: b3e3de83e8f7ce041856e11af3240c7e, type: 2}
 --- !u!212 &212387797584591382
@@ -127,7 +127,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 26f80a67b770f4647a9effd04a001d7e, type: 3}
-  m_Color: {r: 0.99264705, g: 0.5680035, b: 0.18247189, a: 1}
+  m_Color: {r: 0.17301044, g: 0.21009438, b: 0.9411765, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
