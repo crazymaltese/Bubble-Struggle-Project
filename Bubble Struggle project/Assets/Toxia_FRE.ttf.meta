@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3a8c4c65c37aadc459cec1a8075890c2
+timeCreated: 1523118236
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: TOXIA
+  fontNames:
+  - TOXIA
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
