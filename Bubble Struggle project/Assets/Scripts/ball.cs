@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ball : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ball : MonoBehaviour
     public Vector2 startForce;
     // To connect the rigidbody effect
     public Rigidbody2D rb;
+    //public int counter = 20;
 
     public GameObject nextBall;
 
@@ -17,6 +19,15 @@ public class ball : MonoBehaviour
     {
         rb.AddForce(startForce, ForceMode2D.Impulse);
 
+    }
+    void Update()
+    {
+        
+            /*if (counter <= 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }*/
+   
     }
 
     public void Split()
@@ -30,6 +41,13 @@ public class ball : MonoBehaviour
             ball2.GetComponent<ball>().startForce = new Vector2(-2f, -5f);
         }
         Destroy(gameObject);
+
+        /*if (nextBall == null)
+        {
+            counter--;
+            Debug.Log(counter);
+
+        }*/
     }
 
 }

@@ -121,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startForce: {x: 2, y: 0}
   rb: {fileID: 50566827979837148}
+  counter: 20
   nextBall: {fileID: 0}
 --- !u!212 &212269615585915066
 SpriteRenderer:
