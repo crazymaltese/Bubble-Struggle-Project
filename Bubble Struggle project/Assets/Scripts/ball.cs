@@ -22,12 +22,7 @@ public class ball : MonoBehaviour
     }
     void Update()
     {
-        
-            /*if (counter <= 0)
-            {
-                SceneManager.LoadScene("Menu");
-            }*/
-   
+       
     }
 
     public void Split()
@@ -42,12 +37,7 @@ public class ball : MonoBehaviour
         }
         Destroy(gameObject);
 
-        /*if (nextBall == null)
-        {
-            counter--;
-            Debug.Log(counter);
-
-        }*/
+      
     }
 
 }
